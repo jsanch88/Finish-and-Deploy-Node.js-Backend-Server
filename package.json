@@ -28,6 +28,7 @@
     "prisma": "^3.5.0"
   },
   "dependencies": {
+    "@prisma/client": "^3.5.0",
     "consola": "^2.15.3",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",

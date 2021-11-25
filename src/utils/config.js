@@ -15,6 +15,7 @@ const envSchema = joi
       .default('development'),
     PORT: joi.number().positive().required(),
     ORIGIN: joi.string().uri().required(),
+    DATABASE_URL: joi.string().uri().required(),
   })
   .unknown()
 
